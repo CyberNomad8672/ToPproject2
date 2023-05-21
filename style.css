@@ -1,0 +1,198 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    display:flex;
+    flex-direction:column;
+    flex-wrap:wrap;
+    min-height: 100vh;
+}
+
+/* ----------------- header-section --------------------- */
+
+header {
+    flex: 1;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    background-color: #1F2937;
+    padding: 8px 13%;
+    max-width: 100vw;
+    height: 7vh;
+}
+
+header div {
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    min-width: 100%;
+
+}
+
+header h2 {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+header ul {
+    display:flex;
+    align-items:center;
+    justify-content: space-around;
+    gap: 16px;
+}
+
+header a {
+    color: #E5E7EB;
+    font-size: 18px;
+    padding: 0 15px;
+}
+
+header a:hover {
+    background-color: #F9FAF8;
+    color: #1F2937;
+    border-radius: 5px;
+}
+
+
+/* ----------------- top-section --------------------- */
+
+section {
+    flex: 1;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5%;
+    gap: 16px;
+}
+
+.top-section {
+    background-color: #1F2937;
+}
+
+.top-section div {
+    width: 38%;
+}
+
+.div-left h1 {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.div-left p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button {
+    background-color: #3882F6;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    padding: 6px 14px;
+}
+
+button:hover {
+    background-color: #F9FAF8;
+    color: #3882F6;
+}
+
+.top-section-img {
+    background-image: url("img/hero-placeholder.jpg");     /* ----------------------- need to add an image --------------------  */
+    background-size: cover;
+    background-position: 100% 100%;
+    height: 30vh;
+}
+
+/* --------------- gallery  --------------------- */
+
+.gallery {
+    text-align:center;
+    background-color: white;
+    gap: 40px;
+    padding-top: 40px;
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.gallery h2 {
+    flex: 1 1 100%;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    width: 250px;
+}
+
+.card img {
+    width: 250px;
+    height: 250px;
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+}
+
+
+/* ----------------- quote section --------------- */
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 200px 300px;
+}
+
+.quote p, .quote strong {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote strong {
+    display: block;
+    text-align: right;
+}
+
+/* --------------- sign up -------------- */
+
+.sign-up {
+    background-color: white;
+
+}
+
+.sign-up-bg {
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    width: 70vw;
+    background-color:#3882F6;
+    color: #F9FAF8;
+    border-radius: 10px;
+    padding: 50px 80px;
+}
+
+.sign-up-bg button {
+    border: 1px solid white;
+}
+
+/* ---------------- footer ---------------- */
+
+footer {
+    color: #F9FAF8;
+    background-color:#1F2937;
+    text-align:center;
+    padding: 35px;
+}
